@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5e59b8c841a66d1270073e4e6fa5848fd66d44860840a1867b3965e7af0db5c6.html">Google Translate</a></span>
+                > <span class="truncate-60"><a
+                    href="cd509975fd98d8d8edef065dcc37d5f1d1a791b0a372a18d8ac2d2347cba9432.html">translate from english to spanish </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-08-2019 15:51</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Google Translate </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>As a web user
+</code></pre>
+<p>I want to use google translate
+To translate words between different languages</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">translate from english to spanish
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="119c71f778ae2bae1b00c0f1b49ed3708b8cc0c2ae5237e8325793380f12fe8f.png" title="Given that Susan wants to transalte a word//precondition//precondiciones" width="1034"/>
+                <img src="efec99b252ffe5d51412c8c75bd2d1de98815e906f33cca7d556467c4396bce2.png" title="Susan opens the browser on Google Home Page" width="1034"/>
+                <img src="a544ee468222e63d91ed1e13d37af7d0965c0fb1f002b50fb3c3bfeb189565e9.png" title="Susan opens the Google home page" width="1034"/>
+                <img src="a544ee468222e63d91ed1e13d37af7d0965c0fb1f002b50fb3c3bfeb189565e9.png" title="Susan clicks on Google apps button" width="1034"/>
+                <img src="a3f06cd03013bf730bf76f6b5a2fb115a33456e27b98f477f7ad463934b7eafd.png" title="Susan clicks on Google apps button" width="1034"/>
+                <img src="ef86308440e223fb4ecaafc9119068a6579d97c1a3ca8afe1d7f475aaa1552f4.png" title="Susan clicks on Google translate Option" width="1034"/>
+                <img src="119c71f778ae2bae1b00c0f1b49ed3708b8cc0c2ae5237e8325793380f12fe8f.png" title="Susan clicks on Google translate Option" width="1034"/>
+                <img src="073f1dd4b0ba0523ab0f76658c5cff3ce01682c9773512bf4b79c68628064d79.png" title="When she translates the word cheese from English to Spanish//action" width="1034"/>
+                <img src="c7b49fb8e14bd8cfe4f5c9e971866d3ac44c1d8b621b871f7a60f946a3844d56.png" title="When she translates the word cheese from English to Spanish//action" width="1034"/>
+                <img src="073f1dd4b0ba0523ab0f76658c5cff3ce01682c9773512bf4b79c68628064d79.png" title="Susan clicks on Source language button" width="1034"/>
+                <img src="8bf3ed21e02a32f2b5ba5906869fa6a15fbb4514cf7e80dc6a8e209dad860c6d.png" title="Susan clicks on Source language button" width="1034"/>
+                <img src="72ba9b48f5184f6d82397d5a91356d04b3ea3121d1cda24644590abd799e36ff.png" title="Susan clicks on Source language" width="1034"/>
+                <img src="b5c920058f2d962c2f6746b8af44d4aa5d436cfedb5b7921459a88b2675d8054.png" title="Susan clicks on Source language" width="1034"/>
+                <img src="3d958cc494e9e8cd936d14c82093b63753982e4f87fc8641133263be868ff032.png" title="Susan clicks on Target language button" width="1034"/>
+                <img src="cb51b6223be9c462b0e2c02a55355aa6fd2f7e384db07ed6e9ec4a904e3d95d2.png" title="Susan clicks on Target language button" width="1034"/>
+                <img src="49b3adcbc78a5340fc58575bb1430c4ed4108d74cb8640c005de48446dc4d07a.png" title="Susan clicks on Target language" width="1034"/>
+                <img src="217154cc0bfbea26f0339b30669986e0b414e5c680e291f381a50c3d2b2cf9d1.png" title="Susan clicks on Target language" width="1034"/>
+                <img src="217154cc0bfbea26f0339b30669986e0b414e5c680e291f381a50c3d2b2cf9d1.png" title="Susan enters 'cheese' into Source language textarea" width="1034"/>
+                <img src="df79cc25c76ec67407ef61db07ee2927e1f8c3f173354bf1e62392c51633c81c.png" title="Susan enters 'cheese' into Source language textarea" width="1034"/>
+                <img src="8685adf0286178aef635cf4cb8786592f0ecb6ef936e30e293007e281c0a5a91.png" title="Then she should see the word queso in the screen" width="1034"/>
+                <img src="44f1e8804f24f8523b1fbc94967ad8401fb543ed6afa1fad282a8b42a17549f2.png" title="Then the word should be 'queso'" width="1034"/>
+                <img src="8685adf0286178aef635cf4cb8786592f0ecb6ef936e30e293007e281c0a5a91.png" title="Then the word should be 'queso': <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

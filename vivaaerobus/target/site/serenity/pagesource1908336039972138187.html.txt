@@ -1,0 +1,72 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <script>window.IntentMedia = window.IntentMedia || {}; window.IntentMedia.whereAmI = 'exit_unit';</script>
+    <script>
+    window.logXufunBookend = (function () {
+
+        var urlParams = (function () {
+            var obj = {};
+            var s = window.location.search.substr(1).split('&');
+
+            var p;
+            s.forEach(function (pair) {
+                p = pair.split('=');
+                if (p.length > 1) {
+                    obj[p[0]] = p[1];
+                } else if (p[0]) {
+                    obj[p[0]] = true;
+                }
+            });
+
+            return obj;
+        })();
+
+        var customDimensions = {
+            inRemoteIFrame: urlParams.in_remote_domain,
+            opensRemote: urlParams.opens_remote_exit_unit,
+            remotePolling: urlParams.exit_unit_remote_polling,
+            source: urlParams.exit_unit_source,
+            xuFunnelType: urlParams.xuFunnelType
+        };
+
+        return function (name) {
+            if (urlParams.xuFunnel && urlParams.build !== 'DEV' && urlParams.request_generator !== 'im-api') {
+                var url = 'https://6ytvy2ekla.execute-api.us-east-1.amazonaws.com/prod/info';
+                var record = {
+                    name: name,
+                    customDimensions: customDimensions,
+                    clientId: urlParams.build,
+                    clientTime: Date.now(),
+                    pageId: urlParams.page_id,
+                    pageInitializationId: urlParams.page_initialization_id,
+                    publisherUserId: urlParams.publisher_user_id,
+                    siteType: urlParams.site_name
+                };
+                var data = JSON.stringify({
+                    records: [record]
+                });
+                try {
+                    navigator.sendBeacon(url, data);
+                } catch(e) {
+                    var xmlhttp = new window.XMLHttpRequest();
+                    xmlhttp.open('POST', url, true);
+                    xmlhttp.setRequestHeader('Content-Type', 'text/plain;charset=UTF-8');
+                    xmlhttp.send(data);
+                }
+            }
+        };
+
+    })();
+
+    logXufunBookend('xufun_win_html');
+    </script>
+    <script src="/javascripts/v1/intent_media_core.js"></script>
+
+
+</body></html>

@@ -1,0 +1,63 @@
+<html><head>
+    
+<script src="//bat.bing.com/bat.js" async=""></script><script src="https://connect.facebook.net/signals/plugins/inferredEvents.js?v=2.9.2" async=""></script><script src="https://connect.facebook.net/signals/config/854016758046437?v=2.9.2&amp;r=stable" async=""></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="//script.crazyegg.com/pages/scripts/0082/7572.js?434887"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-N3QVFL"></script><script type="text/javascript" src="/ruxitagentjs_ICA2SVfqru_10171190801163814.js" data-dtconfig="rid=RID_1893814083|rpid=-1048350876|domain=vivaaerobus.com|reportUrl=/rb_e62d12a4-6e50-4efc-81be-8375a32b4090|app=9c40c305301c413f|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|featureHash=ICA2SVfqru|lastModification=1564746295925|srsr=25000|dtVersion=10171190801163814|tp=500,50,0,1|rdnt=1|uxrgce=1|uxdcw=1500|agentUri=/ruxitagentjs_ICA2SVfqru_10171190801163814.js"></script></head>
+
+<body>
+
+        <script>
+            dataLayer = [{
+                'language' : 'es',
+                'currency' : 'MXN',
+                'page' : document.title,
+                'box' : 'Start',
+                'sca' : {
+                    'channel' : 'WEB',
+                    'pos' : 'mx'
+                }
+            }];
+            dataLayerSelectedProducts = [];
+        </script>
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-N3QVFL"
+                    height="0" width="0" style="display: none; visibility: hidden"></iframe>
+        </noscript>
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start':
+                        new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-N3QVFL');
+        </script>
+    
+
+
+
+
+
+
+
+<div class="entry-content">
+    <!-- v1.0 --><script src="//a.cdn.intentmedia.net/javascripts/v1/intent_media_exit_unit_redirector.js">
+    </script>
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","//connect.facebook.net/en_US/fbevents.js");fbq("init","854016758046437");fbq("track","PageView");</script> 
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=854016758046437&amp;ev=PageView&amp;noscript=1"></noscript><script type="text/javascript" id="">(function(b,c,e,f,d){b[d]=b[d]||[];var g=function(){var a={ti:"39000107"};a.q=b[d];b[d]=new UET(a);b[d].push("pageLoad")};var a=c.createElement(e);a.src=f;a.async=1;a.onload=a.onreadystatechange=function(){var b=this.readyState;b&&"loaded"!==b&&"complete"!==b||(g(),a.onload=a.onreadystatechange=null)};c=c.getElementsByTagName(e)[0];c.parentNode.insertBefore(a,c)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+<script type="text/javascript" async="" src="//sc.tradetracker.net/tracker/merchant?e=dd&amp;t=js"></script><script type="text/javascript" id="">(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="//sc.tradetracker.net/tracker/merchant?e\x3ddd\x26t\x3djs";a.addEventListener("load",function(){_ttDedupe("click","vb")});var b=document.getElementsByTagName("script");b=b[b.length-1];b.parentNode.insertBefore(a,b)})();</script>
+<script type="text/javascript" id="">var utm_source=google_tag_manager["GTM-N3QVFL"].macro(2),gclid=google_tag_manager["GTM-N3QVFL"].macro(3);function createCookie(c,d){var b=2592E3;b*=1E3;var a=new Date,e=a.getTime();a.setTime(e+b);a=a.toUTCString();document.cookie=c+"\x3d"+d+"; expires\x3d"+a+"; path\x3d/"}utm_source?createCookie("attr_source_cookie",utm_source):gclid&&createCookie("attr_source_cookie","GoogleAds");</script><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.5559612120194193"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.5882858304854213" width="0" height="0" alt="" src="https://bat.bing.com/action/0?ti=39000107&amp;Ver=2&amp;mid=9cc669da-7e77-190a-7dfd-6da90473219b&amp;pi=1200101525&amp;lg=es-ES&amp;sw=1366&amp;sh=768&amp;sc=24&amp;p=https%3A%2F%2Fwww.vivaaerobus.com%2Fmx%2Fcompare%3Fpublisher_user_id%3D315e0d8d-1e1e-490d-b0a0-a86a5c1528af%26ad_unit_tag_id%3Dviv_mx_hot_xsell_hom_xu%26page_initialization_id%3D30a87610-eba6-46e7-b0d5-a2fe23b3f49c%26exit_unit_source%3Dhomepage%26origination%3DCUU%26destination%3DACA%26page_id%3Dflight.home%26site%3DVIVAAEROBUS%26site_name%3DVIVAAEROBUS%26site_country%3DMX%26site_language%3Des%26site_currency%3DMXN%26opens_remote_exit_unit%3Dtrue%26exit_unit_remote_polling%3Dfalse%26build%3DBUILD_119377_canary%26bucket%3Da2%26privacy_policy_link%3Dhttps%253A%252F%252Fwww.vivaaerobus.com%252Fupload%252Fen%252Flegales%252Fprivacy-notice-for-integral-commercial.pdf%26travel_date_start%3D20190818%26travel_date_end%3D20190830%26trip_type%3DROUND_TRIP%26flight_origin%3DCUU%26flight_destination%3DACA%26product_category%3Dhotels%26page_view_type%3DHOME%26travelers%3D1%26origin_airport%3DCUU%26destination_airport%3DACA%26ad_unit_type%3Dexit_unit%26im_session_id%3D6e7276c2-0506-4c9b-997a-51f3434c5064%26hotel_airport_code%3DACA%26request_generator%3Dim-js%26altsvc%3Dfalse%26is_incognito%3Dfalse%26requested_number_of_prechecks%3D2%26i_am_xu%3Dtrue%26parent_height%3D708%26parent_width%3D1050%26parent_left%3D10%26parent_top%3D10%26autopopping%3Dfalse%26open_type%3Dbacktab%26redirect_url%3D%252F%252Fwww.vivaaerobus.com&amp;r=https%3A%2F%2Fwww.vivaaerobus.com%2Fmx&amp;lt=1772&amp;evt=pageLoad&amp;msclkid=N&amp;rn=854196"></div></body></html>
